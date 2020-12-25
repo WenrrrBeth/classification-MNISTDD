@@ -16,7 +16,7 @@ Datasets:
     - two digits' position ranges from 0 to 37 ((64+1)-28)
     - model returned labels range from 0 to 148 (4*37)
     - reshape the labels in to shape [N, 2, 4]
-    - each n data contain [x1, y1, x1+28, y1+28], [x2, y2, x2+28, y2+28] where x and y represents the exist and 1 and 2 represent first and second digits
+    - each n data contain [x1, y1, x1+28, y1+28], [x2, y2, x2+28, y2+28] where x and y represents the axis and 1 and 2 represent first and second digits
 
 <br />Model: <br /> <br />
 &nbsp;&nbsp;&nbsp;&nbsp; ![alt text](https://github.com/WenrrrBeth/classification-MNISTDD/blob/master/model.png)
