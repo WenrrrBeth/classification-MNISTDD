@@ -5,7 +5,7 @@ Datasets:
 - digits range [0, 9]
 - digits size (bounding box size) 28x28
 
-Algorithm used:
+<br />Algorithm used:
 - Labels: classification
     - two digits range from 0 to 9
     - model returned labels range from 0 to 19
@@ -18,10 +18,10 @@ Algorithm used:
     - reshape the labels in to shape [N, 2, 4]
     - each n data contain [x1, y1, x1+28, y1+28], [x2, y2, x2+28, y2+28] where x and y represents the exist and 1 and 2 represent first and second digits
 
-Model: <br />
+<br />Model: <br /> <br />
 &nbsp;&nbsp;&nbsp;&nbsp; ![alt text](https://github.com/WenrrrBeth/classification-MNISTDD/blob/master/model.png)
 
-Result:
+<br />Result:
 - Validation datasets with model.pt.172:
     - Classification accuracy: 99.63
     - Detection IOU: 95.17
