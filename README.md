@@ -6,7 +6,7 @@ Datasets:
 - digits size (bounding box size) 28x28
 
 <br />Algorithm used:
-- Labels: classification
+- Classes: classification
     - two digits range from 0 to 9
     - model returned labels range from 0 to 19
     - reshape the labels into shape [N, 2]
