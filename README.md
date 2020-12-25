@@ -25,6 +25,6 @@ Result:
 - Validation datasets with model.pt.172:
     - Classification accuracy: 99.63
     - Detection IOU: 95.17
-    - Valid time (GPU): \approx 23.28
-    - Valid time (CPU): \approx 418
+    - Valid time (GPU): ≈ 23.28
+    - Valid time (CPU): ≈ 418
 
