@@ -18,7 +18,7 @@ Algorithm used:
     - reshape the labels in to shape [N, 2, 4]
     - each n data contain [x1, y1, x1+28, y1+28], [x2, y2, x2+28, y2+28] where x and y represents the exist and 1 and 2 represent first and second digits
 
-Model:
+Model: <br />
 ![alt text](https://github.com/WenrrrBeth/classification-MNISTDD/blob/master/model.png)
 
 
